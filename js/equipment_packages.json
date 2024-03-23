@@ -1,0 +1,26 @@
+{
+    "adventuring_peasant":{
+	"name":"Adventuring Peasant",
+	"items":["War Shirt (AC 11)", "Large Shield (AC 14 when held)","Light Spear (1d6 dmg, Shock 2/AC 13)", "Dagger (1d4 dmg, Shock 1/AC 15)", "Backpack", "Rations, 1 week", "Mule and small cart", "Tinder box and 3 torches"]
+    },
+    "armored_warrior":{
+	"name":"Armored Warrior",
+	"items":["Pieced Armor (AC 14)", "Large Shield (+1 AC when wearing armor)","Short Sword (1d6 dmg, Shock 2/AC 15)","Dagger (1d4 dmg, Shock 1/AC 15)","Backpack","Tinder box and 3 torches"]
+    },
+    "gentry_wayfarer":{
+	"name":"Gentry Wayfarer",
+	"items":["Buff Coat (AC 12)","Small Shield (+1 AC when wearing armor)","Short Sword (1d6 dmg, Shock 2/AC 15)","Backpack","Rations, 1 week","Waterskin","Fine suit of clothing carried in the pack","Writing kit & 20 sheets of paper","20 silver coins in cash"]
+    },
+    "ranger_archer":{
+	"name":"Ranger or Archer",
+	"items":["Buff Coat (AC 12)","Bow, Large (1d8 damage, no Shock)","20 arrows & quiver","Dagger (1d4 dmg, Shock 1/AC 15)","Hand Axe (1d6 dmg, Shock 1/AC 15)","Backpack","Cooking utensils and 2 weeks of rations","Waterskin","Tinder box and 3 torches","20 silver pieces in cash"]
+    },
+    "roguish_wanderer":{
+	"name":"Roguish Wanderer",
+	"items":["Buff Coat (AC 12)","Small Shield (+1 AC when wearing armor)","Short Sword (1d6 dmg, Shock 2/AC 15)","Throwing Blades, 5 (1d4 dmg, no Shock)","Backpack","Rations, 1 week","Waterskin","Tinder box and 3 torches","Grappling hook and 50’ of rope"]
+    },
+    "mage_healer_scholar":{
+	"name":"Mage, Healer, or Scholar",
+	"items":["Daggers, 2 (1d4 dmg, Shock 1/AC 15)","Staff (1d6 dmg, Shock 1/AC 13)","Backpack","Lantern, tinder box, and 2 pint flasks of oil","Writing kit & 20 sheets of paper","Rations, 1 week","Waterskin","Healer’s pouch","80 silver pieces in cash"]
+    }
+}

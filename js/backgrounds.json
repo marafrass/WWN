@@ -1,0 +1,162 @@
+{
+    "artisan":{
+	"name":"Artisan",
+	"description":"Your hero was a crafter of some variety, whether a blacksmith, carpenter, shipwright, weaver, or a maker of more exotic goods. In humble villages an artisan is most likely to make the bulk of their living by the same subsistence farming as their neighbors, but in towns and cities they might be full-time professionals, perhaps belonging to some guild or brotherhood specific to their craft. While an artisan’s Craft skill is chiefly applicable to those works related to their background, they often know enough or can improvise sufficiently to make competent efforts at other types of work.",
+	"free_skill":"Craft-0",
+	"quick_skills":["Craft-0","Trade-0","Connect-0"],
+	"growth":["+1 Any Stat","+2 Physical", "+2 Physical", "+2 Mental", "Exert", "Any Skill"],
+	"learning":["Connect","Convince","Craft","Craft","Exert","Know","Notice","Trade"]
+    },
+    "barbarian":{
+	"name":"Barbarian",
+	"description":"Your people or past were counted savage even in a world as brutal as this one. Primitive hill tribes, hard-pressed jungle clans, or simple frontiersmen too long out of contact with a more sophisticated civilization might all qualify for this background. You know how to live without the comforts a softer and more pacified people might require and you have a ready acceptance of violence that can keep you alive where others might perish. Still, the material privation of your life does not mean you are necessarily stupid or unadaptable, nor that you lack your own forms of culture.",
+	"free_skill":"Survive-0",
+	"quick_skills":["Survive-0","Any Combat-0","Notice-0"],
+	"growth":["+1 Any Stat","+2 Physical", "+2 Physical", "+2 Mental", "Exert", "Any Skill"],
+	"learning":["Any Combat","Connect", "Exert", "Lead", "Notice", "Punch", "Sneak", "Survive"]
+    },
+    "carter":{
+	"name":"Carter",
+	"description":"Overland transport is hard and dangerous, and it requires an equally hard breed of men and women to carry it out. Carters might be caravan workers hauling precious goods over hundreds of miles, or independent shippers running a cart between isolated hamlets, or they might be messenger riders risking grave peril to deliver small packages. A carter may be a low-born peasant, but he might end up seeing more of the world than the gentry of his homeland. These far-traveled haulers commonly learn quickly how to handle themselves in perilous circumstances.",
+	"free_skill":"Ride-0",
+	"quick_skills":["Ride-0", "Connect-0", "Any Combat-0"],
+	"growth":["+1 Any Stat", "+2 Physical", "+2 Physical", "+2 Mental", "Connect", "Any Skill"],
+	"learning":["Any Combat", "Connect", "Craft", "Exert", "Notice", "Ride", "Survive", "Trade"]
+    },
+    "courtesan":{
+	"name":"Courtesan",
+	"description":"Your hero made a profession of companionship, whether carnal or otherwise. Common street harlots or rented boys are by no means unknown among adventurers, but there are also exquisitely polished courtesans and graciously platonic artists of song, dance, and cultured companionship. Some have wearied of the particular strains of their work, while others mean to take advantage of their special talents in smoothing the social interactions of an adventuring party with an often-suspicious world.",
+	"free_skill":"Perform-0",
+	"quick_skills":["Perform-0", "Notice-0", "Connect-0"],
+	"growth":["+1 Any Stat", "+2 Mental", "+2 Mental", "+2 Physical", "Connect", "Any Skill"],
+	"learning":["Any Combat","Connect", "Convince", "Exert", "Notice", "Perform", "Survive", "Trade"]
+    },
+    "criminal":{
+	"name":"Criminal",
+	"description":"Some would argue that all adventurers are criminals sooner or later, but your hero made it their profession from an early age. Con men, charlatans, fraudulent merchants, pickpockets, sneak thieves, impostors, footpads, and ne’er-do-wells of every description often filter into the adventuring lifestyle, if only to ensure that their travels take them well away from the sites of their former activity. Given the general unscrupulousness, quick wits, and daring required of a successful criminal, many make excellent adventurers. Other less gifted examples make excellent corpses.",
+	"free_skill":"Sneak-0",
+	"quick_skills":["Sneak-0","Connect-0","Convince-0"],
+	"growth":["+1 Any Stat", "+2 Mental", "+2 Physical", "+2 Mental", "Connect", "Any Skill"],
+	"learning":["Administer","Any Combat", "Connect", "Convince", "Exert", "Notice", "Sneak", "Trade"]
+    },
+    "hunter":{
+	"name":"Hunter",
+	"description":"Both primitive tribals and bored nobles require hunts for their table and their pleasures, and such efforts often require professional hunters to help in the work Hunger or greed has also been known to send poor peasants into the game preserves of their lords or deep into dangerous wilderness. A few hunters are actual gamekeepers employed to ward off poachers, and a few are simply hermits who have no love for any company but their own. The marksmanship and stealth of a well-practiced hunter tend to be useful skills in an adventurer’s line of work.",
+	"free_skill":"Shoot-0",
+	"quick_skills":["Shoot-0", "Survive-0", "Sneak-0"],
+	"growth":["+1 Any Stat", "+2 Physical", "+2 Physical", "+2 Physical", "Exert", "Any Skill"],
+	"learning":["Any Combat", "Exert", "Heal", "Notice", "Ride", "Shoot", "Sneak", "Survive"]
+    },
+    "laborer":{
+	"name":"Laborer",
+	"description":"In the villages and rural regions of the world, the vast majority of the populace are simple peasants. In the cities, the great mass of unskilled workers are laborers instead, day-workers and unskilled help employed by the artisans and craftsmen of the town. Their lives are hard, precarious, and unpromising, but the chance to live in a city and the opportunities for wealth and status it offers are enough to beguile many poor village lads and lasses. In the absence of a lucky break or fortuitous apprenticeship, some laborers find themselves willing to risk the life of an adventurer rather than endure their poverty meekly.",
+	"free_skill":"Work-0",
+	"quick_skills":["Work-0", "Connect-0", "Exert-0"],
+	"growth":["+1 Any Stat", "+1 Any Stat", "+1 Any Stat", "+1 Any Stat", "Exert", "Any Skill"],
+	"learning":["Administer", "Any Skill", "Connect", "Convince", "Craft", "Exert", "Ride", "Work"]
+    },
+    "merchant":{
+	"name":"Merchant",
+	"description":"Merchants range from the gilded merchant-princes of the great trading cities to the humble peddlers who roam between villages with packs full of sewing needles, tin pans, belt knives, and other household needs. Trade is a dangerous thing in this world, constantly subject to the rapacious demands of lords or the brutal exaction of bandits, and few cowards take up the work. Merchants with a particular fund of courage and an exceptional appetite for gold might even become adventurers, the better to obtain capital and contacts for their work.",
+	"free_skill":"Trade-0",
+	"quick_skills":["Trade-0", "Convince-0", "Connect-0"],
+	"growth":["+1 Any Stat", "+2 Mental", "+2 Mental", "+2 Mental", "Connect", "Any Skill"],
+	"learning":["Administer", "Any Combat", "Connect", "Convince", "Craft", "Know", "Notice", "Trade"]
+    },
+    "noble":{
+	"name":"Noble",
+	"description":"Nobility is a quality that varies from culture to culture, some bestowing it for personal virtue, others to particular bloodlines, and some to those who fulfill specific roles in the culture. Whatever the particulars, your hero was of the noble caste of their home, one of the elites who governed and ruled. Alas, some circumstance has driven you out of your former place, forcing you to seek companions in adventure and make your own way in the world. You may no longer have the dignities and advantages of your former rank, but you at least have the benefit of its education.",
+	"free_skill":"Lead-0",
+	"quick_skills":["Lead-0", "Connect-0", "Administer-0"],
+	"growth":["+1 Any Stat", "+2 Mental", "+2 Mental", "+2 Mental", "Connect", "Any Skill"],
+	"learning":["Administer", "Any Combat", "Connect", "Convince", "Know", "Lead", "Notice", "Ride"]
+    },
+    "nomad":{
+	"name":"Nomad",
+	"description":"Some peoples are forced to travel far to find their sustenance, whether they are beast-riders, drivers of great wagons, or simple masses of people walking from one waystation to another. Their native land may not be rich enough to support them and their herds for long at any one place, or some shifting peril might require them to be constantly on the move. Nomads are often mistrusted by settled folk, as it’s all too easy for them to commit some depredation before moving out of reach of reprisal, but their skills at riding and surviving harsh environments are of use to any adventurer.",
+	"free_skill":"Ride-0",
+	"quick_skills":["Ride-0","Survive-0","Any Combat-0"],
+	"growth":["+1 Any Stat", "+2 Physical", "+2 Physical", "+2 Mental", "Exert", "Any Skill"],
+	"learning":["Any Combat", "Connect", "Exert", "Lead", "Notice", "Ride", "Survive", "Trade"]
+    },
+    "peasant":{
+	"name":"Peasant",
+	"description":"A peasant’s life is never easy, though in some lands it’s a kinder fate than others. Even in the richest states, however, a peasant’s life is often marked by hunger, poverty, and a constant struggle to obtain the very minimal necessities for life. Most are accustomed to a world in which anything they can’t personally grow, make, scavenge, or steal is something they won’t have. Such ruthless resourcefulness and tolerance of pain and toil are useful qualities to any adventurer... and there are enough of them that a few who perish in some trackless waste are no grievous loss to their lords.",
+	"free_skill":"Exert-0",
+	"quick_skills":["Exert-0","Sneak-0","Survive-0"],
+	"growth":["+1 Any Stat", "+2 Physical", "+2 Physical", "+2 Physical", "Exert", "Any Skill"],
+	"learning":["Connect", "Exert", "Craft", "Notice", "Sneak", "Survive", "Trade", "Work"]
+    },
+    "performer":{
+	"name":"Performer",
+	"description":"Singers, dancers, musicians, actors, poets, orators, and all other entertainers and edifiers might be found in this background. In a world such as this one, there are precious few who can earn more than the barest living off their art, and those who prosper are inevitably the ones who can cozen and beguile some rich patron into favoring their efforts. Even a wandering bard reliant on the generosity of taphouse keepers and bored yeomen must have a way with people, and this skill at managing their affections is often useful for an adventurer.",
+	"free_skill":"Perform-0",
+	"quick_skills":["Perform-0", "Convince-0", "Connect-0"],
+	"growth":["+1 Any Stat", "+2 Mental", "+2 Physical", "+2 Physical", "Connect", "Any Skill"],
+	"learning":["Any Combat", "Connect", "Exert", "Notice", "Perform", "Perform", "Sneak", "Convince"]
+    },
+    "physician":{
+	"name":"Physician",
+	"description":"Healers are needed in any society, and your hero was one such physician. In a town or city, they might have been a classically-trained professional, versed in subtle arts of medical horoscopes, therapeutic gemstones, and the imbibing of precious metals, while a village healer might simply know the proper use of herbs, sutures, and splints. Adventuring bands always prize the help of a trained healer, whatever their background, and many consider it an essential to have someone in the party capable of patching up a bleeding ally or treating a fevered friend.",
+	"free_skill":"Heal-0",
+	"quick_skills":["Heal-0", "Know-0", "Notice-0"],
+	"growth":["+1 Any Stat", "+2 Physical", "+2 Mental", "+2 Mental", "Connect", "Any Skill"],
+	"learning":["Administer", "Connect", "Craft", "Heal", "Know", "Notice", "Convince", "Trade"]
+    },
+    "priest":{
+	"name":"Priest",
+	"description":"Priests run a wide gamut in this world. Some live as moral exemplars for their flock, teaching them of the ethical demands of their religion and encouraging them in their faith. Others are simple spiritual technicians, performing rituals to propitiate and coax their god with no concern for anything but the correct execution of the rite and the timely receipt of payment. Adventuring priests often tend more toward the latter, assisting their companions with their prayers and expertise in handling people. A few priests even have magical powers, either given to them by their deity or learned as part of their youthful training.",
+	"free_skill":"Pray-0",
+	"quick_skills":["Pray-0", "Convince-0", "Know-0"],
+	"growth":["+1 Any Stat", "+2 Mental", "+2 Physical", "+2 Mental", "Connect", "Any Skill"],
+	"learning":["Administer","Connect","Know","Lead", "Heal", "Convince", "Pray", "Pray"]
+    },
+    "sailor":{
+	"name":"Sailor",
+	"description":"Your hero was a sailor, a voyager on the salt tides or deep rivers of their home. They might have be captain of a ship of their own, or a bargeman on the great rivers, or a simple seaman willing to take ship with any craft that would have him. Some nations might even have ships of a more than nautical nature, aircraft or stranger things in need of a trained crew. Whatever their usual berth, sailors are accustomed to lives of sudden peril and hard labor, and the self-sufficiency forced by a life on the waves is often useful to an adventurer.",
+	"free_skill":"Sail-0",
+	"quick_skills":["Sail-0", "Exert-0", "Notice-0"],
+	"growth":["+1 Any Stat", "+2 Physical", "+2 Physical", "+2 Mental", "Exert", "Any Skill"],
+	"learning":["Any Combat","Connect", "Craft", "Exert", "Heal", "Notice", "Perform", "Sail"]
+    },
+    "scholar":{
+	"name":"Scholar",
+	"description":"Dedicated scholars are few and far between in this world, but your hero is one of those rarities. Either through noble birth, a wealthy background, or dedication to some institution of knowledge, your hero has had the opportunity to become immersed in a life of study. You may have a particular field of focus, but scholarship in this age is a broad undertaking, and every scholar is expected to know something of the natural sciences and the nations surrounding their home. Given this education, those scholars with the daring to become adventurers can find themselves called upon to perform highly perilous field research.",
+	"free_skill":"Know-0",
+	"quick_skills":["Know-0","Heal-0","Administer-0"],
+	"growth":["+1 Any Stat", "+2 Mental", "+2 Mental", "+2 Mental", "Connect", "Any Skill"],
+	"learning":["Administer","Heal","Craft","Know","Notice","Perform","Pray","Convince"]
+    },
+    "slave":{
+	"name":"Slave",
+	"description":"Slavery in this world varies from the pampered life of some favored house slave to a short, brutal existence in the mines and manufactories. It’s not unknown for the same slave to experience both ends of the spectrum as their charm fades or financial need forces a slimming of the household staff. In some lands a former slave can have hope of attaining honor and status, while in others they might expect an even worse state, without even the assurance of sufficient bread for their labor. Runaways, rebels, and ex-slaves are all well-represented among the desperate class of adventurers.",
+	"free_skill":"Sneak-0",
+	"quick_skills":["Sneak-0","Survive-0","Exert-0"],
+	"growth":["+1 Any Stat","+2 Physical", "+2 Physical", "+2 Mental", "Exert", "Any Skill"],
+	"learning":["Administer", "Any Combat", "Any Skill", "Convince", "Exert", "Sneak", "Survive", "Work"]
+    },
+    "soldier":{
+	"name":"Soldier",
+	"description":"Mercenary, regular soldier, temple knight, monastic defender, village militiaman, or savage raider; whatever the specifics, your hero made their living by war. You may have wearied of the endless killing, or lost your former employer, or simply became dissatisfied with the meager rewards offered for your shed blood, but whatever the cause you have decided to take up an adventurer’s life instead. Every group values the help of a strong sword arm, even if you may have developed skills far different from that in pursuit of your trade.",
+	"free_skill":"Any Combat-0",
+	"quick_skills":["Any Combat-0","Exert-0","Survive-0"],
+	"growth":["+1 Any Stat","+2 Physical", "+2 Physical", "+2 Physical", "Exert", "Any Skill"],
+	"learning":["Any Combat", "Any Combat", "Exert", "Lead", "Notice", "Ride", "Sneak", "Survive"]
+    },
+    "thug":{
+	"name":"Thug",
+	"description":"A soldier belongs to some larger organization, whereas you were simply a thug. Whether a village bully, street ruffian, assassin, bandit, outlaw, or neighborhood enforcer, you got what you wanted through the strength of your right arm. Not every ruffian is a simple criminal, however, and it may be you were a protector to your family or gang, or a defender of your neighborhood against hostile outsiders or an oppressive lord. Necessity or ambition has turned you to an adventurer’s life, however, and your combination of raw violence and calculated social expertise is likely to be useful in the trade.",
+	"free_skill":"Any Combat-0",
+	"quick_skills":["Any Combat-0", "Convince-0","Connect-0"],
+	"growth":["+1 Any Stat","+2 Mental", "+2 Physical", "+2 Physical", "Connect", "Any Skill"],
+	"learning":["Any Combat", "Any Combat", "Connect", "Convince", "Exert", "Notice", "Sneak", "Survive"]
+    },
+    "wanderer":{
+	"name":"Wanderer",
+	"description":"Some people simply have no home, and your hero is one such unfortunate. You may have been driven into exile by hostile neighbors, or a turn of political fortune, or a crime you may or may not have committed. Your former home might have been destroyed by enemies, or transformed by events until it no longer had a place for you. Whatever the particulars, you journey for your own reasons and seek whatever it is you hope to find in this world. Adventurers often have a tolerance for such vagabonds that is not to be found in more settled society.",
+	"free_skill":"Survive-0",
+	"quick_skills":["Survive-0", "Sneak-0", "Notice-0"],
+	"growth":["+1 Any Stat","+2 Physical", "+2 Physical", "+2 Mental", "Exert", "Any Skill"],
+	"learning":["Any Combat", "Connect", "Notice", "Perform", "Ride", "Sneak", "Survive", "Work"]
+    }
+}
